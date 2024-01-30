@@ -4,7 +4,9 @@
  Algoritmo em Portugol / Visualg
 
  algoritmo "MpA"
+
 var
+
    R1, R, R4: Inteiro
    R2, R3, R5, R6: caractere
    VT, MT, MaiorM, MenorM, VMT, VNT, VL, NVT, NM, MF: real
@@ -12,7 +14,9 @@ var
    VM1, VM2, VM3, VM4, VM5, VM6, VM7, VM8, VM9, VM10: real
    VA1, VA2, VA3, VA4, VA5, VA6, VA7, VA8, VA9, VA10: real
    V: vetor [1..10] de real
+
 inicio
+
       Escreva ("Quantos valores?: ")
       Leia (R1)
 
@@ -180,6 +184,7 @@ inicio
       EscrevaL ("O MpA e: ", MF:1:2)
       EscrevaL ("   ")
       EscrevaL ("OBRIGADO POR TESTAR")
+      
 fimalgoritmo
 
 
