@@ -26,19 +26,19 @@ inicio
       FimPara
 
       EscrevaL ("    ")
-      EscrevaL ("A soma dos numeros é igual a: ", VT)
+      EscrevaL ("A soma dos numeros e igual a: ", VT)
 
       MT <- VT/R1
 
-      EscrevaL ("A media total é: ", MT)
+      EscrevaL ("A media total e: ", MT)
 
       MaiorM <- MT + (MT * 0.20)
 
-      EscrevaL ("A media + 20% é igual a: ", MaiorM)
+      EscrevaL ("A media + 20% e igual a: ", MaiorM)
 
       MenorM <- MT - (MT * 0.20)
 
-      EscrevaL ("A media - 20% é igual a: ", MenorM)
+      EscrevaL ("A media - 20% e igual a: ", MenorM)
 
 
       Se (V[1] >= MaiorM) entao
@@ -192,7 +192,7 @@ inicio
 
       NVT <- VT - VL
 
-      EscrevaL ("O novo valor total é:", NVT)
+      EscrevaL ("O novo valor total e:", NVT)
       EscrevaL("   ")
       EscrevaL ("Valores na media: ")
       Para R <- 1 ate 10 faca
@@ -209,7 +209,7 @@ inicio
 
       NM <- NVT/R4
 
-      EscrevaL ("A nova media é: ", NM)
+      EscrevaL ("A nova media e: ", NM)
       EscrevaL ("   ")
       Escreva ("Digite 's' para saber valor em MpA: ")
       Leia (R5)
@@ -218,7 +218,7 @@ inicio
 
       EscrevaL ("   ")
       EscrevaL ("-----------------")
-      EscrevaL ("O MpA é: ", MF:1:2)
+      EscrevaL ("O MpA e: ", MF:1:2)
       EscrevaL ("-----------------")
       EscrevaL ("   ")
       EscrevaL ("OBRIGADO POR TESTAR")
